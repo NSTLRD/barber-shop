@@ -21,18 +21,20 @@ This project is a RESTful API for managing a barber shop, developed using Spring
 
 ## Project Structure
 
-```
-src
-┣ main
-┃ ┣ java/com/mentorly/barber_shop
-┃ ┃ ┣ controller
-┃ ┃ ┣ dto
-┃ ┃ ┣ entity
-┃ ┃ ┣ mapper
-┃ ┃ ┣ repository
-┃ ┃ ┗ service
-┣ test
-```
+- **src/main/java/com/mentorly/barber_shop**  
+  - **controller**: Contains the REST controllers that handle HTTP requests and responses.
+  - **dto**: Data Transfer Objects used for transferring data between layers.
+  - **entity**: The entity classes representing the database tables.
+  - **mapper**: Classes responsible for mapping between entities and DTOs.
+  - **repository**: Contains the repository interfaces for database interactions using Spring Data JPA.
+  - **service**: Service classes where the business logic is implemented.
+
+- **src/main/resources**
+  - Contains application configuration files such as `application.yml` for environment-specific settings.
+
+- **src/test**
+  - Contains unit and integration tests for the application.
+
 
 - **Controller**: Handles the REST endpoints.
 - **DTO**: Data Transfer Objects for the entities.

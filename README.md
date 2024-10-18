@@ -1,5 +1,3 @@
-[]: # Title: Barber Shop API
-[]: # Description: RESTful API for managing a barber shop, developed using Spring Boot.
 # Barber Shop API
 
 This project is a RESTful API for managing a barber shop, developed using Spring Boot. It includes functionality to manage barbers, items related to barbers (like tools), and provides authentication through JWT tokens. The project follows best practices for REST API development and includes integration with a MySQL database, OpenAPI for API documentation, and uses H2 for local testing.
